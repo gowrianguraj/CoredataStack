@@ -33,4 +33,14 @@ class SampleTests: XCTestCase {
         }
     }
     
+    func testHelloWorld() {
+        var helloworld : String?
+        XCTAssertNil(helloworld)
+        helloworld = "hello world"
+        XCTAssertEqual(helloworld, "hello world")
+    
+    }
+    
+   
+    
 }
